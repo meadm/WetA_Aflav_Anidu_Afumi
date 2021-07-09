@@ -1,0 +1,4 @@
+#!/bin/bash
+macs2 callpeak -t /data/rokaslab/meadm/NextGenSequencing/wetA/Anidu_ChIP-seq/SecondSet/BWA-MEM/7_sorted_filtered_nodups.bam -c /data/rokaslab/meadm/NextGenSequencing/wetA/Anidu_ChIP-seq/SecondSet/BWA-MEM/10_sorted_filtered_nodups.bam -n 7and10 -f BAM -g 2.93e7 -s 101 --nomodel --extsize 180
+macs2 callpeak -t /data/rokaslab/meadm/NextGenSequencing/wetA/Anidu_ChIP-seq/SecondSet/BWA-MEM/8_sorted_filtered_nodups.bam -c /data/rokaslab/meadm/NextGenSequencing/wetA/Anidu_ChIP-seq/SecondSet/BWA-MEM/12_sorted_filtered_nodups.bam -n 8and12 -f BAM -g 2.93e7 -s 101 --nomodel --extsize 180
+macs2 callpeak -t /data/rokaslab/meadm/NextGenSequencing/wetA/Anidu_ChIP-seq/SecondSet/BWA-MEM/9_sorted_filtered_nodups.bam -c /data/rokaslab/meadm/NextGenSequencing/wetA/Anidu_ChIP-seq/SecondSet/BWA-MEM/14_sorted_filtered_nodups.bam -n 9and14 -f BAM -g 2.93e7 -s 101 --nomodel --extsize 180
