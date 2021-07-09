@@ -1,0 +1,22 @@
+#!/bin/bash
+grep -w "L_induced" flavus_NNN_annotated.txt >> flavus_NNN_annotated_reordered.txt
+grep -w "L_repressed" flavus_NNN_annotated.txt >> flavus_NNN_annotated_reordered.txt
+grep -w "LN_induced" flavus_NNN_annotated.txt >> flavus_NNN_annotated_reordered.txt
+grep -w "LN_reduced" flavus_NNN_annotated.txt >> flavus_NNN_annotated_reordered.txt
+grep -w "ALL_induced" flavus_NNN_annotated.txt >> flavus_NNN_annotated_reordered.txt
+grep -w "ALL_reduced" flavus_NNN_annotated.txt >> flavus_NNN_annotated_reordered.txt
+grep -w "LU_induced" flavus_NNN_annotated.txt >> flavus_NNN_annotated_reordered.txt
+grep -w "LU_reduced" flavus_NNN_annotated.txt >> flavus_NNN_annotated_reordered.txt
+grep -w "LN_induced_U_reduced" flavus_NNN_annotated.txt >> flavus_NNN_annotated_reordered.txt
+grep -w "LN_reduced_U_induced" flavus_NNN_annotated.txt >> flavus_NNN_annotated_reordered.txt
+grep -w "LU_induced_N_repressed" flavus_NNN_annotated.txt >> flavus_NNN_annotated_reordered.txt
+grep -w "LU_reduced_N_induced" flavus_NNN_annotated.txt >> flavus_NNN_annotated_reordered.txt
+grep -w "L_induced_NU_reduced" flavus_NNN_annotated.txt >> flavus_NNN_annotated_reordered.txt
+grep -w "L_induced_N_reduced" flavus_NNN_annotated.txt >> flavus_NNN_annotated_reordered.txt
+grep -w "L_reduced_NU_induced" flavus_NNN_annotated.txt >> flavus_NNN_annotated_reordered.txt
+grep -w "L_reduced_N_induced" flavus_NNN_annotated.txt >> flavus_NNN_annotated_reordered.txt
+grep -w "L_reduced_U_induced" flavus_NNN_annotated.txt >> flavus_NNN_annotated_reordered.txt
+grep -w "L_induced_U_reduced" flavus_NNN_annotated.txt >> flavus_NNN_annotated_reordered.txt
+grep " N." flavus_NNN_annotated.txt >> flavus_NNN_annotated_reordered.txt
+grep " U." flavus_NNN_annotated.txt >> flavus_NNN_annotated_reordered.txt
+grep -w "not_expressed" flavus_NNN_annotated.txt >> flavus_NNN_annotated_reordered.txt
